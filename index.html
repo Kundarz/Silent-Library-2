@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silent Library</title>
+  
+  <!-- ✅ Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Your custom styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-left">
+      <img src="assets/Logo.svg" alt="Silent Library Logo" class="site-logo">
+      <div class="page-title">
+        <h1>Home</h1>
+        
+      </div>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search books, authors..." />
+    </div>
+    <div class="nav-links">
+      <a href="index.html" class="btn">Home</a>
+      <a href="about.html" class="btn">About</a>
+      <a href="digital-collection.html" class="btn">Digital Collection</a>
+      <a href="events.html" class="btn">Events</a>
+      <a href="login.html" class="btn">Login</a>
+      
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="hero">
+    <h1>Silence Speaks Volumes</h1>
+    <p>Welcome to Silent Library – your digital sanctuary of quiet exploration. Browse our curated collection of cyberpunk fiction, data ethics, and underground thought. Where echoes fade, stories thrives, maybe even those dark knowledge might be hidden within our digital shelves.</p>
+    <a class="btn" href="digital-collection.html">Browse Our Collection</a>
+  </main>
+
+  <!-- Cards Section -->
+  <section class="card-section">
+    <div class="info-card">
+      <h2>📅 Ongoing Events</h2>
+      <p> Join Us for the first ever online Literary Quiz Bowl. Next session: August 15th, 2025.</p>
+      <a class="btn" href="event-literary-quiz-bowl.html">View Events</a>
+    </div>
+    <div class="info-card">
+      <h2>📚 New Book Highlights</h2>
+      <p>Featured this week: "Dune" by Frank Herbert. Mary Shelley's Gothic masterpiece tells the tale of Victor Frankenstein, a scientist who creates life, only to be haunted by his monstrous creation. A story of ambition, guilt, and humanity..</p>
+      <a class="btn" href="book-12.html">Explore Books</a>
+    </div>
+  </section>
+
+<!-- Featured Genres Section -->
+<section class="container my-5">
+  <h2 class="text-center text-accent mb-4">Featured Genres</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card bg-dark text-light h-100 shadow">
+        <div class="card-body">
+          <h5 class="card-title text-accent">Cyberpunk</h5>
+          <p class="card-text">Explore futuristic dystopias and mind-bending tech landscapes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card bg-dark text-light h-100 shadow">
+        <div class="card-body">
+          <h5 class="card-title text-accent">Data Ethics</h5>
+          <p class="card-text">Dive deep into the responsibilities of tech in modern society.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card bg-dark text-light h-100 shadow">
+        <div class="card-body">
+          <h5 class="card-title text-accent">Subversive Thought</h5>
+          <p class="card-text">Uncover radical ideas and counter-culture philosophies.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action Section -->
+  <section class="card-section">
+    <div class="info-card">
+    <h2>Become a Silent Member</h2>
+    <p>Join our community and access thousands of rare and thoughtful works.</p>
+    <a href="login.html" class="btn btn-primary mt-3 w-100">Join Now</a>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="container my-5">
+  <h2 class="text-center text-accent mb-4">What Our Readers Say</h2>
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <div class="card bg-dark text-light h-100 shadow">
+        <div class="card-body">
+          <p class="card-text">"Silent Library gave me the space to explore ideas quietly and freely. It's my digital refuge."</p>
+          <footer class="blockquote-footer text-accent">Ada C., Digital Philosopher</footer>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <div class="card bg-dark text-light h-100 shadow">
+        <div class="card-body">
+          <p class="card-text">"A fantastic resource for anyone looking for intelligent, thought-provoking reads."</p>
+          <footer class="blockquote-footer text-accent">James L., AI Ethics Researcher</footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-section">
+          <p>&copy; Silent Library. All rights reserved.</p>
+          <p>Designed by Pixel Elites Inc.</p>
+        </div>
+        <div class="footer-section">
+          <div class="footer-links">
+            <a href="sitemap.html">Sitemap</a>
+            <a href="contact.html">Contact</a>
+            <a href="policy.html">Privacy</a>
+          </div>
+        </div>
+        <div class="footer-section footer-socials">
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/book-data.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/back-navigation.js"></script>
+  <script src="js/mobile-optimization.js"></script>
+  <script src="js/style-fixes.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
